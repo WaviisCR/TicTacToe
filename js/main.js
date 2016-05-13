@@ -21,15 +21,15 @@ $(document).ready(function() /*es para cargar primero el html*/ {
                     $(this).prop("disabled", true)
                 }
 /*Asignar el contenido de cada box a una variable para luego poer compararlos entre ellos y poder determninar a un ganador.*/
-        var b1 = $(#1).text;/*.text para obtener el valor "# 1 "*/
-        var b2 = $(#2).text;
-        var b3 = $(#3).text;
-        var b4 = $(#4).text;
-        var b5 = $(#5).text;
-        var b6 = $(#6).text;
-        var b7 = $(#7).text;
-        var b8 = $(#8).text;
-        var b9 = $(#9).text;
+        /*var b1 = $(#1).text();/*.text para obtener el valor "# 1 "*/
+        /*var b2 = $(#2).text();
+        var b3 = $(#3).text();
+        var b4 = $(#4).text();
+        var b5 = $(#5).text();
+        var b6 = $(#6).text();
+        var b7 = $(#7).text();
+        var b8 = $(#8).text();
+        var b9 = $(#9).text();*/
 
 
     });
@@ -39,5 +39,5 @@ $(document).ready(function() /*es para cargar primero el html*/ {
 $(document).ready(function() {
      $("#reload").click(function() {
           location.reload();/*recargo la pagina en el archivo en estoy*/
-     })
-})
+     });
+});

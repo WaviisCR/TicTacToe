@@ -1,72 +1,72 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Tic tac toe</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/main.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    </head>
-    <body>
-        <header>
-            <div class = "container-fluid">
-                <div class = "row">
-                    <h1>TIC TAC TOE</h1>
-                </div>
+  <head>
+    <meta charset="UTF-8">
+    <title>Tic tac toe</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  </head>
+  <body>
+    <header>
+      <div class = "container-fluid">
+        <div class = "row">
+          <h1>TIC TAC TOE</h1>
+        </div>
+      </div>
+    </header>
+    <section id = "game">
+      <div class = "container">
+        <div class = "row">
+          <div class = "instructions">
+            <h2>Instrucciones</h2>
+            <ul>
+              <li>Siempre empieza el jugador X y gana el que hace tres en linea.</li>
+            </ul>
+            <button id="reload" type = "button">De nuevo</button>
+          </div>
+        </div>
+        <div class = "row">
+          <div class = "container-boxes">
+            <div class = "row">
+              <div class = "col-xs-4">
+                <button id="1"  class = "box">*</button>
+              </div>
+              <div class = "col-xs-4">
+                <button id="2"  class = "box">*</button>
+              </div>
+              <div class = "col-xs-4">
+                <button id="3"  class = "box">*</button>
+              </div>
             </div>
-        </header>
-        <section id = "game">
-            <div class = "container">
-                <div class = "row">
-                    <div class = "instructions">
-                        <h2>Instrucciones</h2>
-                        <ul>
-                            <li>Siempre empieza el jugador X y gana el que hace tres en linea.</li>
-                        </ul>
-                        <button id="reload" type = "button">De nuevo</button>
-                    </div>
-                </div>
-                <div class = "row">
-                    <div class = "container-boxes">
-                        <div class = "row">
-                            <div class = "col-xs-4">
-                                <button id="1"  class = "box">*</button>
-                            </div>
-                            <div class = "col-xs-4">
-                                <button id="2"  class = "box">*</button>
-                            </div>
-                            <div class = "col-xs-4">
-                                <button id="3"  class = "box">*</button>
-                            </div>
-                        </div>
-                        <div class = "row">
-                            <div class = "col-xs-4">
-                                <button id="4"  class = "box">*</button>
-                            </div>
-                            <div class = "col-xs-4">
-                                <button id="5"  class = "box">*</button>
-                            </div>
-                            <div class = "col-xs-4">
-                                <button id="6"  class = "box">*</button>
-                            </div>
-                        </div>
-                        <div class = "row">
-                            <div class = "col-xs-4">
-                                <button id="7"  class = "box">*</button>
-                            </div>
-                            <div class = "col-xs-4">
-                                <button id="8"  class = "box">*</button>
-                            </div>
-                            <div class = "col-xs-4">
-                                <button  id="9" class = "box">*</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class = "row">
+              <div class = "col-xs-4">
+                <button id="4"  class = "box">*</button>
+              </div>
+              <div class = "col-xs-4">
+                <button id="5"  class = "box">*</button>
+              </div>
+              <div class = "col-xs-4">
+                <button id="6"  class = "box">*</button>
+              </div>
             </div>
-         </section>
-         
-    </body>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.2.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+            <div class = "row">
+              <div class = "col-xs-4">
+                <button id="7"  class = "box">*</button>
+              </div>
+              <div class = "col-xs-4">
+                <button id="8"  class = "box">*</button>
+              </div>
+              <div class = "col-xs-4">
+                <button  id="9" class = "box">*</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </body>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.2.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 </html>
