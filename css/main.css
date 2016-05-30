@@ -1,12 +1,23 @@
+h1{
+	text-align: center;
+}
 .container-boxes{
-	width: 50%;
+	    width: 50%;
+    position: absolute;
+    left: 22em;
+}
+.instruccions{
+	padding: 3%;
 }
 .box{
-	border:solid 1px silver;
+	border:solid 1px pink;
 	width: 4em;
 	height: 4em;
 	text-align: center;
 	padding: 25%;
 	margin: 10%;
 	font-size: 2.5em;
+}
+button{
+	background-color: antiquewhite
 }
